@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 3</title>
+</head>
+<style>
+    .xul {
+        position: absolute;
+        list-style-type: none; /*quita los puntos de la lista*/
+        margin: 20px;
+        padding: 20px;
+        overflow: hidden; /*el contenido es recortado y no se muestran las barras de desplasamiento. 
+        El contenido se ubica en la siguiente linea*/
+        background-color: darkslateblue;
+    }
+    .xli{float: left;} /*En lugar de poner li uno debajo del otro, hacemos que floten a la izquierda, es decir, 
+    se ponen uno al lado del otro, se ponen ya como un menu.*/
+    .xli a{
+        color: floralwhite;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;/*Que los enlaces aparescan sin subrayar*/
+    }
+    .xli a:hover{background-color: blue;}/*Hace que cambie el color de fondo(background).*/
+</style>
+
+<body>
+    <ul class="xul">
+        <li class="xli"><a href="#Inicio">Inicio</a></li>
+        <li class="xli"><a href="#Quienes Somos">¿Quienes Somos?</a></li>
+        <li class="xli"><a href="#Contacto">Contacto</a></li>
+    </ul>
+</body>
+
+</html>

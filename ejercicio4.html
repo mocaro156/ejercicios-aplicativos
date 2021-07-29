@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 4</title>
+</head>
+<style>
+    /*IMPORTANTE: el estilo deberia ir en un archivo aparte*/
+    /*<link rel="stylesheet" href="style.css">*/
+
+    .fila_head {
+        font-family: Arial;
+        font-size: 100%;
+        font-style: italic;
+        font-variant: small-caps;
+        /*normal |small-caps|initial*/
+        color: red;
+    }
+
+    table {
+        border-collapse: collapse;
+        background-color: yellow;
+        border: 1px dotted black;
+        border-bottom-style: dashed;
+        /*Estilo de la linea del borde de abajo de la tabla*/
+        border-bottom-color: red;
+        /*Color del borde de abajo de la tabla*/
+    }
+
+    td {
+        border: 1px dotted black;
+    }
+
+    /*Para aplicar borde a cada linea de la tabla*/
+</style>
+
+<body>
+    <table>
+        <tr>
+            <!--fila-->
+            <th class="fila_head">Edad</th>
+            <!--Table head-->
+            <th class="fila_head">Peso</th>
+        </tr>
+        <tr>
+            <td class="fila">40</td>
+            <!--Columna-->
+            <td class="fila">78</td>
+        </tr>
+        <tr>
+            <td class="fila">53</td>
+            <td class="fila">76</td>
+        </tr>
+        <tr>
+            <!--junta de dos filas en una-->
+            <td colspan="2" class="texto">En el momento en que entiendo verdaderamente a mi enemigo, en el momento en
+                que le entiendo lo suficientemente bien como para
+                derrotarle, entonces, en ese preciso instante, tambien le quiero.
+        </tr>
+    </table>
+</body>
+
+</html>

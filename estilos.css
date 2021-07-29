@@ -1,0 +1,75 @@
+body {
+  font-family: monospace;
+}
+.registro {
+    background: red;
+    width: 500px;
+    padding: 30px 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 3px;
+  }
+form {
+  line-height: 95%;
+  width: 400px;
+  margin: auto;
+  background: white;
+  padding: 10px 20px; /*relleno del formulario*/
+  box-sizing: content-box; /*para que el relleno del formulario se vaya hacia adentro*/
+  margin-top: 2px; /*para bajarlo un poco*/
+  border-radius: 1px; /*para redondear las esquinas*/
+}
+h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  margin-bottom: 19px;
+  line-height: 10%;
+}
+input {
+  border: 3px solid;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: 1px double black;
+}
+textarea,
+select {
+  width: 100%;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: 1px double black;
+}
+textarea {
+  min-height: 100px; /*alto minimo*/
+  max-height: 200px; /*alto maximo*/
+  max-width: 100%; /*ancho maximo*/
+}
+#boton {
+  background: #31384a;
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+}
+#boton:hover {
+  cursor: pointer;
+}
+#nombre {
+  width: 100%;
+}
+#correo {
+  width: 100%;
+}
+#telefono {
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .form {
+    width: 100%;
+  }
+}
+* {
+  margin-bottom: 0px;
+}
